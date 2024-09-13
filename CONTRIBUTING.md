@@ -1,6 +1,7 @@
 ## Contributing
 
 When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
+
 - If you have questions, please ask them first in the mailing list john-users at lists.openwall.com;
 - Use issues to keep track of ideas, enhancements, tasks, and bugs. NEVER as a support forum;
 
@@ -13,9 +14,10 @@ Try to be clear about your environment and what you are doing. If possible, shar
 Please refer to `doc/README.coding-style` for information on the subject.
 
 For Jumbo, The maintainer recommends to format code using the following commands:
+
 ```
-$ indent -kr -i4 -ts4 -nlp -nbbo -ncs -l79 -lc79 -bad -il0
-$ astyle --style=kr -t4 -U -H -p -xC79 -c -k3 -z2
+indent -kr -i4 -ts4 -nlp -nbbo -ncs -l79 -lc79 -bad -il0
+astyle --style=kr -t4 -U -H -p -xC79 -c -k3 -z2
 ```
 
 ## License
@@ -23,6 +25,7 @@ $ astyle --style=kr -t4 -U -H -p -xC79 -c -k3 -z2
 John the Ripper is released under GNU GPL v2 "or later", with portions also available under more relaxed terms.
 
 Solar Designer's current preference is that new code contributions be licensed under very liberal terms:
+
 ```
 /*
  * This software is Copyright (c) YEAR YOUR NAME <your at e-mail.address>,<br>
@@ -31,4 +34,5 @@ Solar Designer's current preference is that new code contributions be licensed u
  * modification, are permitted.<br>
  */
 ```
+
 This is a heavily cut-down “BSD license”. You may also include the warranty disclaimer.
