@@ -19,7 +19,7 @@ import argparse
 from random import getrandbits
 from time import time, localtime, strftime
 import datetime
-from ldap3 import Server, Connection, SIMPLE, \
+from ldap3 import Server, Connection, SIMPLE, \ # type: ignore
     SYNC, ALL, SASL, NTLM
 
 from rom.crypto import generate_subkey, ntlm_hash, RC4_HMAC, HMAC_MD5

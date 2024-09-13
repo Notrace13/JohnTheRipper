@@ -77,6 +77,7 @@
 # unless the "Local Vaults" option under 1Password 6 -> Preferences -> Advanced
 # is selected.
 
+from importlib import reload
 import os
 import sys
 import struct
@@ -94,7 +95,7 @@ try:
     assert json
 except ImportError:
     try:
-        import simplejson as json
+        import simplejson as json # type: ignore
     except ImportError:
         sys.stderr.write("Please install json / simplejson module which is currently not installed.\n")
         sys.exit(-1)
